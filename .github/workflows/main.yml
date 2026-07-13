@@ -23,6 +23,7 @@ jobs:
         sed -i 's/Section: !CydiaVn-Tools/Section: Tools/g' Packages
         sed -i 's/Section: !GSMVN-Tools/Section: Tools/g' Packages
         sed -i 's/Section: !GSMVN-Themes/Section: Themes/g' Packages
+        sed -i 's/Section: !CydiaVn-Apps/Section: Apps/g' Packages
         
         bzip2 -fk Packages
 
