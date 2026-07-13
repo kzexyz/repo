@@ -18,15 +18,24 @@ jobs:
     - name: Install dpkg-dev
       run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2
 
-    - name: Generate Packages and Packages.bz2
+    - name: Generate Repository Files
       run: |
         dpkg-scanpackages -m debs /dev/null > Packages
         bzip2 -fk Packages
+
+        echo "Origin: kazexyz's repo" > Release
+        echo "Label: kazexyz's repo" >> Release
+        echo "Suite: stable" >> Release
+        echo "Version: 1.0" >> Release
+        echo "Codename: kazexyz" >> Release
+        echo "Architectures: iphoneos-arm" >> Release
+        echo "Components: main" >> Release
+        echo "Description: Personal archive for old iOS jailbreak tweaks." >> Release
 
     - name: Commit and Push changes
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
-        git add Packages Packages.bz2
-        git commit -m "Auto-update Packages [skip ci]" || exit 0
+        git add Packages Packages.bz2 Release
+        git commit -m "Auto-update repo files [skip ci]" || exit 0
         git push
