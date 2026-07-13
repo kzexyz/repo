@@ -1152,6 +1152,24 @@ Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
 
+Package: dpkg
+Version: 1.22.6
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6292
+Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
+Depends: libiosexec1 (>= 1.3.1), sh, coreutils, diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libz-ng2, libzstd1, libmd0
+Filename: debs/System/dpkg_1.22.6_iphoneos-arm.deb
+Size: 1237382
+MD5sum: 24573fb73f49540a2d7ed338fb679907
+SHA1: fb50f453153217e652185459485c4193ded1a2c6
+SHA256: 2e777d344ac60687e5c0b68676b236392c8d44b7d5e5e6bfdba44f964fab46dc
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+
 Package: dpkg-repack
 Version: 1.52
 Architecture: iphoneos-arm
@@ -1195,6 +1213,90 @@ Author: Cydia.vn <repo@cydia.vn>
 Depiction: http://cydia.gsm.vn/t96/
 Name: Cydia.vn Icon
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: libdpkg-perl
+Version: 1.22.6
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 2088
+Depends: dpkg (= 1.22.6), perl
+Conflicts: dpkg-perl (<<1:0), dpkg-dev (<< 1.22.6)
+Replaces: dpkg-perl
+Provides: dpkg-perl (= 1.22.6)
+Filename: debs/System/libdpkg-perl_1.22.6_iphoneos-arm.deb
+Size: 443832
+MD5sum: b7baa3adb491385655cd75ea7d56def1
+SHA1: a022156e6cd0acc2ed0e9a6a2c94fc4fc1f2d394
+SHA256: dd85edf63d638656f87f1ae8d20b130f9c7f5910e6ceaeebbaae3094042c6f15
+Section: Packaging
+Priority: optional
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Dpkg perl modules
+ This package provides the perl modules used by the scripts
+ in dpkg-dev. They cover a wide range of functionality. Among them
+ there are the following public modules:
+ .
+  - Dpkg: core variables
+  - Dpkg::Arch: architecture handling functions
+  - Dpkg::Build::Info: build information functions
+  - Dpkg::BuildFlags: set, modify and query compilation build flags
+  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
+  - Dpkg::BuildProfiles: parse and manipulate build profiles
+  - Dpkg::Changelog: parse changelogs
+  - Dpkg::Changelog::Entry: represents a changelog entry
+  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
+  - Dpkg::Checksums: generate and parse checksums
+  - Dpkg::Compression: simple database of available compression methods
+  - Dpkg::Compression::FileHandle: transparently (de)compress files
+  - Dpkg::Compression::Process: wrapper around compression tools
+  - Dpkg::Conf: parse dpkg configuration files
+  - Dpkg::Control: parse and manipulate Debian control information
+    (.dsc, .changes, Packages/Sources entries, etc.)
+  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
+  - Dpkg::Control::Fields: manage (list of known) control fields
+  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
+  - Dpkg::Control::Info: parse files like debian/control
+  - Dpkg::Control::Tests: parse files like debian/tests/control
+  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
+  - Dpkg::Deps: parse and manipulate dependencies
+  - Dpkg::Deps::Simple: represents a single dependency statement
+  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
+  - Dpkg::Deps::Union: list of unrelated dependencies
+  - Dpkg::Deps::AND: list of AND dependencies
+  - Dpkg::Deps::OR: list of OR dependencies
+  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
+  - Dpkg::Exit: push, pop and run exit handlers
+  - Dpkg::Gettext: wrapper around Locale::gettext
+  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
+  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
+    example)
+  - Dpkg::Interface::Storable: base object serializer
+  - Dpkg::Path: common path handling functions
+  - Dpkg::Source::Format: manipulate debian/source/format files
+  - Dpkg::Source::Package: extract Debian source packages
+  - Dpkg::Substvars: substitute variables in strings
+  - Dpkg::Vendor: identify current distribution vendor
+  - Dpkg::Version: parse and manipulate Debian package versions
+ .
+ All the packages listed in Suggests or Recommends are used by some of the
+ modules.
+
+Package: libiosexec1
+Version: 1.3.1
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 76
+Depends: libiosexec1 (>= 1.3.1)
+Filename: debs/System/libiosexec1_1.3.1_iphoneos-arm.deb
+Size: 6568
+MD5sum: 58d055140f49329400e515f6c0bd1eff
+SHA1: 32996c7cfab36b3097f20e108c74d3d4927a70a0
+SHA256: 2e00e300f34f11bec7aeb04f2484a165e075094329344e8ec900834c03a82b9b
+Section: Libraries
+Priority: required
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Description: shim for execve w/ shell script support
 
 Package: openssh
 Version: 8.3-1
@@ -1258,6 +1360,33 @@ Dev: bensge
 Icon: file:///Library/PreferenceLoader/Preferences/TVLockerPro/icon@2x.png
 Name: TVLocker Pro
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: perl
+Version: 5.32.1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 52676
+Depends: libiosexec1
+Filename: debs/System/perl_5.32.1_iphoneos-arm.deb
+Size: 8749710
+MD5sum: 093e31789688030ee1be1ecff43e32bd
+SHA1: e09cdf605da9d259bf6557a9f49917d28f2e5936
+SHA256: b0fe9530437cf2fdee66707df74549d319ebee9ee3d951e7e705c08a3f5c3f79
+Section: Scripting
+Priority: optional
+Homepage: http://dev.perl.org/perl5/
+Description: Larry Wall's Practical Extraction and Report Language
+ Perl is a highly capable, feature-rich programming language with over
+ 20 years of development. Perl 5 runs on over 100 platforms from
+ portables to mainframes. Perl is suitable for both rapid prototyping
+ and large scale development projects.
+ .
+ Perl 5 supports many programming styles, including procedural,
+ functional, and object-oriented. In addition to this, it is supported
+ by an ever-growing collection of reusable modules which accelerate
+ development. Some of these modules include Web frameworks, database
+ integration, networking protocols, and encryption. Perl provides
+ interfaces to C and C++ for custom extension development.
 
 Package: tomkids.OldTikTokCN
 Version: 3.1.3-5
