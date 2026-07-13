@@ -662,28 +662,6 @@ Version: 1.4-5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 325
-Depends: firmware (>= 4.0), system-cmds
-Filename: debs/Utilities/com.officialscheduler.mterminal_1.4-5.deb
-Size: 129048
-MD5sum: bbf7b9f75b19a71fb7a1891ea1aedb7c
-SHA1: 80a3051c1c656d3c61e714794baa0b8e1b82c85b
-SHA256: e634ac849423c53a8db8f7e5c14961c2e9ecfd915edc9774a0137841f5ec2496
-Section: Utilities
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
-Description: A MobileTerminal fork
-Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
-Author: lordscotland <admin@officialscheduler.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
-Dev: officialscheduler
-Icon: file:///Applications/MTerminal.app/Icon.png
-Name: MTerminal
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.officialscheduler.mterminal
-Version: 1.4-5
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 325
 Depends: firmware (>= 4.0), firmware (<= 10.3.4), system-cmds
 Filename: debs/Utilities/com.officialscheduler.mterminal_1.4-5_iphoneos-arm.deb
 Size: 129070
@@ -1199,49 +1177,6 @@ Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
 
-Package: dpkg
-Version: 1.22.6
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 6292
-Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
-Depends: libiosexec1 (>= 1.3.1), sh, coreutils, diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libz-ng2, libzstd1, libmd0
-Filename: debs/System/dpkg_1.22.6_iphoneos-arm.deb
-Size: 1237382
-MD5sum: 24573fb73f49540a2d7ed338fb679907
-SHA1: fb50f453153217e652185459485c4193ded1a2c6
-SHA256: 2e777d344ac60687e5c0b68676b236392c8d44b7d5e5e6bfdba44f964fab46dc
-Section: Packaging
-Priority: required
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: package maintainance tools from Debian
-
-Package: dpkg-repack
-Version: 1.52
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 40
-Depends: perl, libdpkg-perl
-Suggests: fakeroot
-Filename: debs/Terminal Support/dpkg-repack_1.52_iphoneos-arm.deb
-Size: 15740
-MD5sum: 93bb5b1e6c9f3d321bc41266e8f3efa4
-SHA1: 4277d22d964d79ec00811ebd776b0bfa1387b77c
-SHA256: fd6a87b964be61244d1bde135bbe7453150e1c68449554c1b0bd7ff4a51ddab2
-Section: Utilities
-Priority: standard
-Description: Debian package archiving tool
- dpkg-repack creates a .deb file out of a package that has already been
- installed. If any changes have been made to the package while it was
- unpacked (i.e. files in /etc were modified), the new package will inherit
- the changes.
- .
- This utility can make it easy to copy packages from one computer to another,
- or to recreate packages that are installed on your system, but no longer
- available elsewhere, or to store the current state of a package before you
- upgrade it.
-
 Package: gsmicon
 Version: 4.0-2
 Architecture: iphoneos-arm
@@ -1261,166 +1196,6 @@ Depiction: http://cydia.gsm.vn/t96/
 Name: Cydia.vn Icon
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
-Package: libdpkg-perl
-Version: 1.22.6
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 2088
-Depends: dpkg (= 1.22.6), perl
-Conflicts: dpkg-perl (<<1:0), dpkg-dev (<< 1.22.6)
-Replaces: dpkg-perl
-Provides: dpkg-perl (= 1.22.6)
-Filename: debs/System/libdpkg-perl_1.22.6_iphoneos-arm.deb
-Size: 443832
-MD5sum: b7baa3adb491385655cd75ea7d56def1
-SHA1: a022156e6cd0acc2ed0e9a6a2c94fc4fc1f2d394
-SHA256: dd85edf63d638656f87f1ae8d20b130f9c7f5910e6ceaeebbaae3094042c6f15
-Section: Packaging
-Priority: optional
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: Dpkg perl modules
- This package provides the perl modules used by the scripts
- in dpkg-dev. They cover a wide range of functionality. Among them
- there are the following public modules:
- .
-  - Dpkg: core variables
-  - Dpkg::Arch: architecture handling functions
-  - Dpkg::Build::Info: build information functions
-  - Dpkg::BuildFlags: set, modify and query compilation build flags
-  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
-  - Dpkg::BuildProfiles: parse and manipulate build profiles
-  - Dpkg::Changelog: parse changelogs
-  - Dpkg::Changelog::Entry: represents a changelog entry
-  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
-  - Dpkg::Checksums: generate and parse checksums
-  - Dpkg::Compression: simple database of available compression methods
-  - Dpkg::Compression::FileHandle: transparently (de)compress files
-  - Dpkg::Compression::Process: wrapper around compression tools
-  - Dpkg::Conf: parse dpkg configuration files
-  - Dpkg::Control: parse and manipulate Debian control information
-    (.dsc, .changes, Packages/Sources entries, etc.)
-  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
-  - Dpkg::Control::Fields: manage (list of known) control fields
-  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
-  - Dpkg::Control::Info: parse files like debian/control
-  - Dpkg::Control::Tests: parse files like debian/tests/control
-  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
-  - Dpkg::Deps: parse and manipulate dependencies
-  - Dpkg::Deps::Simple: represents a single dependency statement
-  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
-  - Dpkg::Deps::Union: list of unrelated dependencies
-  - Dpkg::Deps::AND: list of AND dependencies
-  - Dpkg::Deps::OR: list of OR dependencies
-  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
-  - Dpkg::Exit: push, pop and run exit handlers
-  - Dpkg::Gettext: wrapper around Locale::gettext
-  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
-  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
-    example)
-  - Dpkg::Interface::Storable: base object serializer
-  - Dpkg::Path: common path handling functions
-  - Dpkg::Source::Format: manipulate debian/source/format files
-  - Dpkg::Source::Package: extract Debian source packages
-  - Dpkg::Substvars: substitute variables in strings
-  - Dpkg::Vendor: identify current distribution vendor
-  - Dpkg::Version: parse and manipulate Debian package versions
- .
- All the packages listed in Suggests or Recommends are used by some of the
- modules.
-
-Package: libintl8
-Version: 0.22
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 208
-Depends: libiosexec1 (>= 1.3.1)
-Filename: debs/System/libintl8_0.22_iphoneos-arm.deb
-Size: 86694
-MD5sum: 9469e0288dbba32489834fdecd6daa3a
-SHA1: 953c7576f97f3ae2a241fba71e356d42cf0e92d7
-SHA256: 26af4b99573c60bb25a9a8d3fac6f1b53966a8864a8d7bbad201bfff598b7eb1
-Section: System
-Homepage: http://www.gnu.org/software/gettext/
-Description: internationalization helper for strings
-Essental: yes
-
-Package: libiosexec1
-Version: 1.3.1
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 76
-Depends: libiosexec1 (>= 1.3.1)
-Filename: debs/System/libiosexec1_1.3.1_iphoneos-arm.deb
-Size: 6568
-MD5sum: 58d055140f49329400e515f6c0bd1eff
-SHA1: 32996c7cfab36b3097f20e108c74d3d4927a70a0
-SHA256: 2e00e300f34f11bec7aeb04f2484a165e075094329344e8ec900834c03a82b9b
-Section: Libraries
-Priority: required
-Homepage: http://github.com/ProcursusTeam/libiosexec
-Description: shim for execve w/ shell script support
-
-Package: liblz4-1
-Version: 1.9.4
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 164
-Depends: libiosexec1 (>= 1.3.1)
-Conflicts: lz4 (<< 1.9.4)
-Filename: debs/System/liblz4-1_1.9.4_iphoneos-arm.deb
-Size: 63916
-MD5sum: baebbbe10d311557cbaee877e440dadd
-SHA1: 48c68c60078a415af78e67c24595f65c1b2d2e5f
-SHA256: 520ad30c1faf266773c78f93eb8200c9ad8c2f4e38a107b9f0a0e14ba6a9ea7b
-Section: Libraries
-Priority: important
-Homepage: http://tukaani.org/lzma/
-Description: Fast LZ compression algorithm library - runtime
-
-Package: liblzma5
-Version: 5.4.4
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 232
-Depends: libiosexec1 (>= 1.3.1)
-Conflicts: xz (<<1:0), lzma (<<3:0)
-Replaces: xz, lzma
-Filename: debs/System/liblzma5_5.4.4_iphoneos-arm.deb
-Size: 116596
-MD5sum: 66d7e4fcf733097decadcad7e19db832
-SHA1: 6b9959db098e4eb7ee0b7774f5703fa08231aa8b
-SHA256: ab9855cde15cd979a6d052057fed3685bf5ac596fff4f9711a16881906385564
-Section: Libraries
-Priority: standard
-Homepage: https://tukaani.org/xz/
-Description: XZ-format compression library
- XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
- compression format, which provides memory-hungry but powerful
- compression (often better than bzip2) and fast, easy decompression.
- .
- The native format of liblzma is XZ; it also supports raw (headerless)
- streams and the older LZMA format used by lzma. (For 7-Zip's related
- format, use the p7zip package instead.)
-
-Package: libmd0
-Version: 1.1.0
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 100
-Depends: libiosexec1 (>= 1.3.1)
-Filename: debs/System/libmd0_1.1.0_iphoneos-arm.deb
-Size: 23338
-MD5sum: 8ac0b6cc692f1c13c3b68917d5ec46c0
-SHA1: fd8dc8c25f79b487e862b314d004aea03dc5ddf0
-SHA256: a61d5c527e3fdeda458e458df04a95ecf08f50563a34a1352c8106e541cf7be8
-Section: Libraries
-Priority: optional
-Description: message digest functions from BSD systems - shared library
- The libmd library provides various message digest ("hash") functions,
- as found on various BSDs on a library with the same name and with a
- compatible API.
-
 Package: libssl1.1.1
 Version: 1.1.1n-1
 Architecture: iphoneos-arm
@@ -1437,41 +1212,6 @@ Section: Security
 Priority: standard
 Description: OpenSSL Libraries for version 1.1.1
 Name: OpenSSL 1.1.1 Libraries
-
-Package: libz-ng2
-Version: 2.1.6
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 168
-Depends: libiosexec1 (>= 1.3.1)
-Filename: debs/System/libz-ng2_2.1.6_iphoneos-arm.deb
-Size: 52102
-MD5sum: 69602a3386d66c103201aaa187b19c3c
-SHA1: 266230d5907fef0d3a7c7548db02208eb8a97ad1
-SHA256: 45041a0c72492f41102437c2e8238eee50f766012cbc80f40f8174457f0c555e
-Section: Libraries
-Priority: standard
-Description: next gen zlib compression library - runtime
- next generation zlib library implementing the deflate compression method
- found in gzip and PKZIP. This package includes the shared library.
-
-Package: libzstd1
-Version: 1.5.5
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 668
-Depends: libiosexec1 (>= 1.2.2), liblz4-1, liblzma5 (>= 5.2.5)
-Filename: debs/System/libzstd1_1.5.5_iphoneos-arm.deb
-Size: 251456
-MD5sum: 70c548e75f11cefd85f61f73c84ced4c
-SHA1: 73085e1e79c2bcafcf015bf1db16b6060bfe8baa
-SHA256: 15cbd6f04e2c50e6dec9734ddf642fee56cc9266b054e4593c80bebdc2fa13a1
-Section: Libraries
-Description: fast lossless compression algorithm
- Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
- real-time compression scenarios at zlib-level compression ratio.
- .
- This package contains the shared library.
 
 Package: openssh
 Version: 8.3-1
@@ -1535,33 +1275,6 @@ Dev: bensge
 Icon: file:///Library/PreferenceLoader/Preferences/TVLockerPro/icon@2x.png
 Name: TVLocker Pro
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: perl
-Version: 5.32.1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 52676
-Depends: libiosexec1
-Filename: debs/System/perl_5.32.1_iphoneos-arm.deb
-Size: 8749710
-MD5sum: 093e31789688030ee1be1ecff43e32bd
-SHA1: e09cdf605da9d259bf6557a9f49917d28f2e5936
-SHA256: b0fe9530437cf2fdee66707df74549d319ebee9ee3d951e7e705c08a3f5c3f79
-Section: Scripting
-Priority: optional
-Homepage: http://dev.perl.org/perl5/
-Description: Larry Wall's Practical Extraction and Report Language
- Perl is a highly capable, feature-rich programming language with over
- 20 years of development. Perl 5 runs on over 100 platforms from
- portables to mainframes. Perl is suitable for both rapid prototyping
- and large scale development projects.
- .
- Perl 5 supports many programming styles, including procedural,
- functional, and object-oriented. In addition to this, it is supported
- by an ever-growing collection of reusable modules which accelerate
- development. Some of these modules include Web frameworks, database
- integration, networking protocols, and encryption. Perl provides
- interfaces to C and C++ for custom extension development.
 
 Package: tomkids.OldTikTokCN
 Version: 3.1.3-5
