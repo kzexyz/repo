@@ -1378,7 +1378,7 @@ Size: 9735294
 MD5sum: 8abe90e41a0a559f5548d5e289dad9ef
 SHA1: 45fd4857346fb52b82990733f4452e1c2846944d
 SHA256: b51c9d06f1e28fa93e94652dbbcc6320053f169cad9a9b9c04f08e0076c67bf0
-Section: !CydiaVn-Apps
+Section: Apps
 Homepage: http://cydia.vn/
 Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
 Author: Carsten Heinelt <repo@cydia.vn>
