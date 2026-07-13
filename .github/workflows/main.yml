@@ -21,6 +21,11 @@ jobs:
     - name: Generate Repository Files
       run: |
         dpkg-scanpackages -m debs /dev/null > Packages
+
+        sed -i 's/!CydiaVn-Tools/Tools/g' Packages
+        sed -i 's/!GSMVN-Tools/Tools/g' Packages
+        sed -i 's/!GSMVN-Themes/Themes/g' Packages
+        
         bzip2 -fk Packages
 
         echo "Origin: kazexyz's repo" > Release
