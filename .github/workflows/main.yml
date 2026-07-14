@@ -37,6 +37,23 @@ jobs:
         echo "Components: main" >> Release
         echo "Description: Personal archive for old iOS jailbreak tweaks." >> Release
 
+    - name: Debug File Count
+      run: |
+        echo " COUNTING .deb FILES IN FOLDER "
+        ls -1 debs/*.deb | wc -l
+        echo " LIST OF FILES IN FOLDER "
+        ls -1 debs/
+
+    - name: Audit broken files
+      run: |
+        echo " STARTING FILE SCAN "
+        for f in debs/*.deb; do
+          if ! dpkg-deb -I "$f" > /dev/null 2>&1; then
+            echo "BROKEN FILE (Cannot read): $f"
+          fi
+        done
+        echo " FINISH CHECKING "
+
     - name: Commit and Push changes
       run: |
         git config --global user.name "GitHub Action"
@@ -44,13 +61,3 @@ jobs:
         git add Packages Packages.bz2 Release
         git commit -m "Auto-update repo files [skip ci]" || exit 0
         git push
-
-    - name: Audit broken files
-      run: |
-        echo " Checking files... "
-        for f in debs/*.deb; do
-          if ! dpkg-deb -I "$f" > /dev/null 2>&1; then
-            echo "Broken files (Cannot read): $f"
-          fi
-        done
-        echo " Finish checking! "
