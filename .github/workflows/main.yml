@@ -14,17 +14,18 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Install dependencies
-      run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 apt-utils
+      run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 apt-utils gzip
 
     - name: Generate Repository Files
       run: |
-        rm -f Packages Packages.bz2 Release
+        rm -f Packages Packages.bz2 Packages.gz Release
         dpkg-scanpackages -m debs /dev/null > Packages
         sed -i 's/Section: !CydiaVn-Tools/Section: Tools/g' Packages
         sed -i 's/Section: !GSMVN-Tools/Section: Tools/g' Packages
         sed -i 's/Section: !GSMVN-Themes/Section: Themes/g' Packages
         sed -i 's/Section: !CydiaVn-Apps/Section: Apps/g' Packages
         bzip2 -fk Packages
+        gzip -fk Packages
         echo "Origin: kazexyz's repo" > Release
         echo "Label: kazexyz's repo" >> Release
         echo "Suite: stable" >> Release
@@ -38,6 +39,6 @@ jobs:
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
-        git add Packages Packages.bz2 Release
+        git add Packages Packages.bz2 Packages.gz Release
         git commit -m "Auto-update repo files [skip ci]" || exit 0
         git push
