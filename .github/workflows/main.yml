@@ -44,3 +44,13 @@ jobs:
         git add Packages Packages.bz2 Release
         git commit -m "Auto-update repo files [skip ci]" || exit 0
         git push
+
+    - name: Audit broken files
+      run: |
+        echo " Checking files... "
+        for f in debs/*.deb; do
+          if ! dpkg-deb -I "$f" > /dev/null 2>&1; then
+            echo "Broken files (Cannot read): $f"
+          fi
+        done
+        echo " Finish checking! "
