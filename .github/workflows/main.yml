@@ -19,15 +19,12 @@ jobs:
     - name: Generate Repository Files
       run: |
         rm -f Packages Packages.bz2 Release
-        apt-ftparchive generate repo.conf > Packages
-
+        dpkg-scanpackages -m debs /dev/null > Packages
         sed -i 's/Section: !CydiaVn-Tools/Section: Tools/g' Packages
         sed -i 's/Section: !GSMVN-Tools/Section: Tools/g' Packages
         sed -i 's/Section: !GSMVN-Themes/Section: Themes/g' Packages
         sed -i 's/Section: !CydiaVn-Apps/Section: Apps/g' Packages
-        
         bzip2 -fk Packages
-
         echo "Origin: kazexyz's repo" > Release
         echo "Label: kazexyz's repo" >> Release
         echo "Suite: stable" >> Release
@@ -36,23 +33,6 @@ jobs:
         echo "Architectures: iphoneos-arm" >> Release
         echo "Components: main" >> Release
         echo "Description: Personal archive for old iOS jailbreak tweaks." >> Release
-
-    - name: Debug File Count
-      run: |
-        echo " COUNTING .deb FILES IN FOLDER "
-        ls -1 debs/*.deb | wc -l
-        echo " LIST OF FILES IN FOLDER "
-        ls -1 debs/
-
-    - name: Audit broken files
-      run: |
-        echo " STARTING FILE SCAN "
-        for f in debs/*.deb; do
-          if ! dpkg-deb -I "$f" > /dev/null 2>&1; then
-            echo "BROKEN FILE (Cannot read): $f"
-          fi
-        done
-        echo " FINISH CHECKING "
 
     - name: Commit and Push changes
       run: |
