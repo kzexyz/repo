@@ -595,30 +595,6 @@ Author: JamieD360 <jamied360support@live.co.uk>
 Depiction: http://modmyi.com/info/ncsettings.d.php
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
-Package: app.weiphone.jamied360.ncsettings
-Architecture: iphoneos-arm
-Version: 1.6.1-1
-Priority: standard
-Essential: no
-Section: [威锋源-应用工具]
-Maintainer: WeiPhone.com <support@office.weiphone.com>
-Installed-Size: 705
-Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.chpwn.weeloader
-Filename: debs/com.jamied360.ncsettings_5.deb
-Size: 390398
-MD5sum: d4b619962014bbe3c440280bbea2aee6
-SHA1: b1ac8f345b20b5cac9ebbdb18f0e3d3e6c91f0e8
-SHA256: 719854839ce14d4830f7cf869ea20407956ca0f51950dea4abd9c6b72a5024a1
-SHA512: a9319470785a19cf7a2e73eaa2fd8f027f603064572adde109a8f7423e47556fdb20a97fa80afe14d87c0c987fd808cdf6504f08229b849821bdccea67bb6cfa
-Homepage: http://apt.weiphone.com/index.php?action=packageRead&id=20422
-Description: NCSettings is a must-have addition to your Notification Center.
-Tag: role::enduser
-Name: NCSettings
-Author: JamieD360 <jamied360@hotmail.co.uk>
-Depiction: http://apt.weiphone.com/cydia/index.php?action=package&id=20422
-Icon: file:///Library/PreferenceLoader/Preferences/com.jamied360.ncsettings/icon@2x.png
-Sponsor: WeiPhone.com <http://www.weiphone.com>
-
 Package: com.julioverne.cydown
 Architecture: iphoneos-arm
 Version: 6.9.9
@@ -1180,6 +1156,25 @@ SHA512: 65c5407f9cb5cf729d9e68ae0366a1ddbd57ab5b31d9b175363a6c30936d4c09f05638ee
 Description: An awesome MobileSubstrate tweak!
 Name: WeatherX-Assistant
 Author: Requis
+
+Package: com.skyglow.itunesstorex
+Architecture: iphoneos-arm
+Version: 2.5
+Section: Tweaks
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: debs/com.skyglow.itunesstorex_2.5.deb
+Size: 106508
+MD5sum: fe7579e05ac248a38df0a065fc92f6dc
+SHA1: 06ab5ef2a70520f97669afec34f16a2b3e765ba1
+SHA256: c8ff8a6d141ed09f28a9ae8c8bdb793dfaddd5cc0b221065f5fe02d663038c1c
+SHA512: 29dc9ff40a02c5a6911a9d9f5371b9ba6fed00981c5fa393a6bd0ca70441bc27861a117f67d63932946cf2095446818ce3e6d27b77533ff4acb82477200e014e
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Name: iTunesStoreX
+Author: Requis, Bag.xml
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
 
 Package: com.skyglow.itunesstorex
 Architecture: iphoneos-arm
