@@ -41,6 +41,24 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 dev: rpetrich
 
+Package: bag.skyglow.bluetweety
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: Requis, bag.xml
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/bag.skyglow.bluetweety_2.0.deb
+Size: 164540
+MD5sum: 2d8fa86eacc3b3422bff62dd514a92b6
+SHA1: ca89f3be01fe0c35980aa4ab2d769a728a1a1429
+SHA256: 436a4555e15c037f2b999d3c0ef67caf5c9ed63d9d4cad22f4350d3c7a3ac6ca
+SHA512: 82f8c9cf393629120c102859697bf548425d2c2fdb066ebdcb5e199d39db080446b6b970247cf5d937c9400fc798a29b38d410ae73c6f3e59de888b0779abb98
+Description: Fix the iOS integration with Twitter across the system, as well as the Twitter app.
+Name: BlueTweety
+Author: Requis, bag.xml
+Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
+
 Package: bag.xml.alienbluebutgood
 Architecture: iphoneos-arm
 Version: 1.1-1+debug
@@ -56,6 +74,40 @@ SHA256: 588a23f5398378f14d19d633f45507ccb72c41745446b53c5eb58b06f46db561
 SHA512: 44b481808de35856ab0a5907665ae98d8c22de38994507c48ff9a8a199e486d3fe3b95c96406bb72ee89b08ec24e5067f9b125ea3a96bbeb17a33c158e06f5de
 Description: Fixes Alien Blue's media URL load failures. Alien Blue is failing to load certain thumbnails and images for a few years now. Clicking on an image post usually results in showing a broken reddit webpage web view, which is abnormal. So I fixed it. UPDATE 1.1: Added iPad Support (Alien Blue HD)
 Name: AB Media Fixer
+Author: bag.xml
+
+Package: bag.xml.tumblere
+Architecture: iphoneos-arm
+Version: 1.0-6+debug
+Section: Tweaks
+Maintainer: bag.xml
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/bag.xml.tumblere_1.0-6+debug.deb
+Size: 4960
+MD5sum: 19d0cd980db549039ce313715ad87fe2
+SHA1: 6e840c72830fc63987e8860554a39fcfef985a3a
+SHA256: 3230e5763d16821b6000ea6a38fa3ab4ebe5445e05be587a3a8bd1773d217e91
+SHA512: f312e5944628ddf01f5d58c9a58c179e791e2465a3f8ab7c59cd528af0f89a10ef75ed09d84c3d0a697a10b67be80d7b037167b019d357418f2c3dadd80f0e17
+Description: Holy Tumblr fix, fixes the app by patching SSL and re-routing HTTP to HTTPS. Works best on Tumblr version 3.4.3!
+Name: Tumblere
+Author: bag.xml
+
+Package: bag.xml.vineredirect
+Architecture: iphoneos-arm
+Version: 2.0-4+debug
+Section: Tweaks
+Maintainer: bag.xml
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
+Filename: debs/bag.xml.vineredirect_2.0-4+debug.deb
+Size: 26410
+MD5sum: 86f9f61a3638c44cb1cd3f65d6c35cf8
+SHA1: 1330a044ac80418b7507ff824e8fb73eeb0e1aa7
+SHA256: bab807d59134ca43ff6019d0a3a092bbecda17552ff5d1b0f4de1c024856c9fe
+SHA512: 7fbb40a04253fcf5984b6a92d2bde7d3cec1f3f1cd8ca406481000eee4259ec659fcdeebc8ee5ae0690755e59084dbf91d178fe3a60b277ca8151a9cc187e5e2
+Description: Allows you to redirect Vine's apiary traffic to a custom URL. UPDATE 2.0: Added a few refinements.
+Name: VineRedirect
 Author: bag.xml
 
 Package: be.rud0lf77.appcent
@@ -122,6 +174,67 @@ Name: AppDrop
 Depiction: https://adrienrl1.github.io/cydia/depiction.html
 Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
 Author: Adrien Ruest-Lorquet
+
+Package: com.aleksanderazizi.sticky-icky
+Architecture: iphoneos-arm
+Version: 0.9.3.2
+Priority: extra
+Section: Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Filename: debs/com.aleksanderazizi.sticky-icky_0.9.3.2.deb
+Size: 29870
+MD5sum: b9bb4029766eddb505f1403b453893e6
+SHA1: db602825a3ee64296130e64693461df138bc19c3
+SHA256: f92b46e9054c3b2b71b626252cdd08a9169c06696c082a84d9b7ef6227d12a5d
+SHA512: 9f32a89f6df585c6affcf6a9e7607b5a6b947f393447a0468b49dff1321a64b489b9a941ebfa47d9e9914e25f6e9d66cbf46aa60b74f0b8ddcd68a3febf4f063
+Homepage: http://modmyi.com/info/stickyicky.php
+Description: Makes your notification banners sticky and wont go away until you open/close it.
+Name: Sticky Icky
+Author: AleksanderAzizi <aleksanderazizi@hotmail.com>
+Depiction: http://modmyi.com/info/stickyicky.d.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Icon: file:///Library/PreferenceLoader/Preferences/StickyIcky@2x.png
+
+Package: com.aoi.storefix6
+Architecture: iphoneos-arm
+Version: 1.0-8
+Section: System
+Maintainer: satou@aoiblog.jp
+Depends: firmware (>= 6.0), firmware (<< 7.0) ,net.nekokawa.appstorefix ,uk.invoxiplaygames.checkmatestore ,com.innoying.sbutils
+Conflicts:  com.aoi.storefix6
+Filename: debs/com.aoi.storefix6_1.0-8.deb
+Size: 1468
+MD5sum: 70a7f9433ddde88d794cfb6c8771e283
+SHA1: c4bb18b0209c2dd54a953906bc05e7fb71e99c7c
+SHA256: 7b1e3916c1bd7cbd2329c2cce3b733ae24aae68260bcc10e843f36ebeff8bb32
+SHA512: 5f9c18fed98bbdf49c9ec61cd918b248249b15bf08f84b3e7299bcbc6900c54a5e963b8ab5afd94e87b589f284248a2ffd22c72086c150c011da9fe8c013512d
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: satou@aoiblog.jp
+Name: AppStoreFix(ios6)
+Depiction: http://aoiblog.jp/repo/index_ios6.html
+dev: aoi_satou
+
+Package: com.aoi.storefix
+Architecture: iphoneos-arm
+Version: 1.0-6
+Section: System
+Maintainer: aoi_satou
+Depends: firmware  (<= 6.1.6)
+Conflicts:  com.aoi.storefix
+Filename: debs/com.aoi.storefix_1.0-6.deb
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+SHA512: da59a9eb59105af3cb0292b56c3df97400939322abe1bf2bedbd9e0019af157e1da57bfe42cd90c9cc710a47f732422c6b768a0480dacea371ab934b1d76f946
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Name: AppStoreFix
+Depiction: http://aoiblog.jp/appstorefix_history.html
+dev: aoi_satou
 
 Package: com.arichardson.weepreferenceloader
 Architecture: iphoneos-arm
@@ -261,6 +374,50 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: blackcrafter
 Icon: file:///Library/PreferenceLoader/Preferences/ColoredKnob/Icon@2x.png
 
+Package: com.chpwn.weeloader
+Architecture: iphoneos-arm
+Version: 1.1-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 12
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: debs/com.chpwn.weeloader_5.deb
+Size: 3528
+MD5sum: eb29a698a1634ac9edfd8b17e3e0f822
+SHA1: f18a2abec1e5041e48c404328797bef79a4f4f43
+SHA256: 8cc7dffcaf568c6a6682b8ed31622a69ba4b9ae1e50bfca4335d7f0ca8022a6a
+SHA512: a2dc668596c9b0db5e9f04ef7b252fa65770d863070ebe391f0c69131a483d562e900f8fe25dfb47d25d08a25669a45daa3d44638ac39d00d882e4cb4a2ed9c0
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Description: Load Wee apps from a safe location
+Tag: role::developer, purpose::extension
+Name: WeeLoader
+Author: chpwn <support@chpwn.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: chpwn
+
+Package: com.clezz.clearbadges
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 173
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
+Filename: debs/com.clezz.clearbadges_1.0.1.deb
+Size: 17260
+MD5sum: 8d8f9dc8a0a3c5df48ea382a8fba5617
+SHA1: d1b32dc275b63c5d7af50e92c50ea263874b05d0
+SHA256: 814bdf125f3ac5bb6305bf0a5669c9e20ec84c8b6bdc382ad9b40d11515f410c
+SHA512: 80608cc294da96c1951a247c099997a7761d174106e12458e64c45f451efb58f397695d9feb831f13d2883f2e14c5301ba498e502a6eb9df0c8e07e6cfab5044
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=clearbadgesDp
+Description: Double-tap app icon while it jiggles
+Tag: purpose::extension
+Author: Ma Jun <majun3@gmail.com>
+Name: Clear Badges
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=clearbadgesDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: clezz
+
 Package: com.codethemed.iconbundles
 Architecture: iphoneos-arm
 Version: 0.2-1
@@ -330,28 +487,26 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: freerunnering
 Icon: file:///Library/PreferenceBundles/SwipeSelectionPro.bundle/SwipeSelectionPro@2x.png
 
-Package: com.iosvidocum.localiapstore
+Package: com.innoying.sbutils
 Architecture: iphoneos-arm
-Version: 1.4-1
-Priority: optional
-Section: Tweaks
-Maintainer:
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Conflicts:
-Replaces:
-Filename: debs/com.iosvidocum.localiapstore_1.4-1.deb
-Size: 71058
-MD5sum: 57d35fad521b09ee29152383cd1fae9c
-SHA1: 1e083925097d0f8c661b4bfed36df711c1ba710d
-SHA256: 327c36e7c783f533d3e1d45e7aa606af600a3cc6f76f6b5a1df9818e4fa6a997
-SHA512: d7ad6ec5c1da6af567fd0b6d8cc5ebb4ef944f05a29c1c02fd2e9e9a5697dbaec18b4c3d49ccaf8857f0c1ef4601e26e46a6193a4d7c1b53c6e7bf526557f972
-Homepage:
-Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
-Name: LocalIAPStore
-Author: anondev
-dev:
-Depiction:
-Icon:
+Version: 1.0.2-1
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 123
+Depends: firmware(>= 4.0)
+Filename: debs/com.innoying.sbutils_1.0.2-1.deb
+Size: 13154
+MD5sum: cca3e6e31e6653e49aee9a017fe83ae8
+SHA1: 83dad5f3b06fc48370ec4ffc1c362bab5510e113
+SHA256: 30c7982d4dc540f4f43e88ebe6b379a06845850aed1f1676223f96cbbf2e6758
+SHA512: 9b6d94d238d492ef0adb9c6c727e7e97de8114b15bc00939eeaa1d21a526382a3aa655d967a6deb3a8d04613e8e8265ad84005c130fe07c7e6e45a229e019834
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbutilsDp
+Description: iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones
+Tag: purpose::console, role::hacker
+Name: sbutils
+Author: Luke Young (innoying) <innoying@gmail.com>
+dev: innoying
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbutilsDp
 
 Package: com.iphonemodding2.zeppelincarpack1
 Architecture: iphoneos-arm
@@ -390,6 +545,36 @@ Depiction: http://www.iphoneruler.net/depiction/BytaFont/
 Author: iPhoneRuler.net <info@iphoneruler.net>
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.ivintagelover.solidglass
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: iVintageLover
+Filename: debs/com.ivintagelover.solidglass_1.0.deb
+Size: 1606444
+MD5sum: 56ce0a06cd328e80a29be8061724c0c9
+SHA1: 9d07dc41c677c1419c3e080af3294d62bd3d578f
+SHA256: 8525e0309c3bcae94f563a912da07ab494def4e4357daca097cd8e6d81360d37
+SHA512: d6742139ba80bafdadc0b66dfe4bc4ed92534377951ff0a8a9c46d718a944e7647e3eac356c24e49e140eb96eb1fe33455fb6212e79a74f5c32ca53aaec67a43
+Description: iOS 26 Dev Beta 1 icons for older devices.
+Name: Solid Glass
+Author: iVintageLover
+
+Package: com.ivintagelover.solidglass
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Themes
+Maintainer: iVintageLover
+Filename: debs/com.ivintagelover.solidglass_2.0.deb
+Size: 5891388
+MD5sum: 77fe1567f71dfb3c753d07082cc9c9a7
+SHA1: 78269ff4eb4824a67bd9da845cc0a84a06189bec
+SHA256: 9f6930b8694d055b38af58602eacb38c0945aa58d71953f74ab39b0974a6d119
+SHA512: 522e060225aeeda895687a0f6e6109be4d7cdf82461b2dbab3430e23a41f2eaad589bbfe722a57d8ae9f3752ace6bc848cf9e9076c5131f2c927a1eff895bbc4
+Description: iOS 26 icons for older devices.
+Name: Solid Glass 2
+Author: iVintageLover
+
 Package: com.jamied360.ncsettings
 Architecture: iphoneos-arm
 Version: 1.7.1
@@ -409,6 +594,30 @@ Name: NCSettings
 Author: JamieD360 <jamied360support@live.co.uk>
 Depiction: http://modmyi.com/info/ncsettings.d.php
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: app.weiphone.jamied360.ncsettings
+Architecture: iphoneos-arm
+Version: 1.6.1-1
+Priority: standard
+Essential: no
+Section: [威锋源-应用工具]
+Maintainer: WeiPhone.com <support@office.weiphone.com>
+Installed-Size: 705
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.chpwn.weeloader
+Filename: debs/com.jamied360.ncsettings_5.deb
+Size: 390398
+MD5sum: d4b619962014bbe3c440280bbea2aee6
+SHA1: b1ac8f345b20b5cac9ebbdb18f0e3d3e6c91f0e8
+SHA256: 719854839ce14d4830f7cf869ea20407956ca0f51950dea4abd9c6b72a5024a1
+SHA512: a9319470785a19cf7a2e73eaa2fd8f027f603064572adde109a8f7423e47556fdb20a97fa80afe14d87c0c987fd808cdf6504f08229b849821bdccea67bb6cfa
+Homepage: http://apt.weiphone.com/index.php?action=packageRead&id=20422
+Description: NCSettings is a must-have addition to your Notification Center.
+Tag: role::enduser
+Name: NCSettings
+Author: JamieD360 <jamied360@hotmail.co.uk>
+Depiction: http://apt.weiphone.com/cydia/index.php?action=package&id=20422
+Icon: file:///Library/PreferenceLoader/Preferences/com.jamied360.ncsettings/icon@2x.png
+Sponsor: WeiPhone.com <http://www.weiphone.com>
 
 Package: com.julioverne.cydown
 Architecture: iphoneos-arm
@@ -700,6 +909,23 @@ Author: playstationid <multitasking@me.com>
 Depiction: http://modmyi.com/info/zeppelintoyotasupralogopack.d.php
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.obscure.earthx
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Requis (ObscureMosquito)
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.obscure.earthx_1.0.deb
+Size: 3824
+MD5sum: a2ac3f05984fd272ce59b9cf832f76c8
+SHA1: b32bbf7e78a53e9666236308efbfa44681c8f215
+SHA256: 95afed7cedfc1de37ff0839a65a7e1c3da16674460dad3f376e72814a2f15e51
+SHA512: a0c2313d53d9abc481697c30c9f37163b7c8110cf7bddb916ab41272875b067543e6a19e231e7dc2173b249609bcece20fa63e5df98cee74d02118b26bf4dbd0
+Description: Enjoy Google Earth again with this small tweak!, just install it, and Google Earth will  work again. (Only tested on iOS 6)
+Name: EarthX
+Author: Requis (ObscureMosquito)
+
 Package: com.officialscheduler.mterminal
 Architecture: iphoneos-arm
 Version: 1.4-5
@@ -834,6 +1060,29 @@ Description: Functional recreation of the EarthX by Requis
 Name: OpenEarthX
 Author: Pod
 
+Package: com.protosphere.pinnacle
+Architecture: iphoneos-arm
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 42
+Depends: firmware (>= 4.0), mobilesubstrate, preferenceloader
+Filename: debs/com.protosphere.pinnacle_1.0.0-1.deb
+Size: 10902
+MD5sum: 4a2888c26a9112fb372b55b17af6049a
+SHA1: 7bd9d05bf71cee62a612e8c190329ebdbf49ce3f
+SHA256: f6c1422a8f2f6c2b960212e4ec59d26374e06370d25d7f8ae590b05c157e2f65
+SHA512: 08371101db5837a1893d4a2622487a60624b6bdc7528e4770f18158b555256740f035cd8288d730795a3b2534284771e31554841fa370875acb411365478d0ee
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=pinnacleDp
+Description: reveal navigation menu holding back button
+Tag: purpose::extension
+Name: Pinnacle
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=pinnacleDp
+Author: Josh Kugelmann (ProtoSphere) & Idhanta <joshk@y7mail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: protosphereidhanta
+Icon: file:///Library/PreferenceLoader/Preferences/Pinnacle@2x.png
+
 Package: com.rbt.batterylife
 Architecture: iphoneos-arm
 Version: 1.7.0
@@ -931,6 +1180,44 @@ SHA512: 65c5407f9cb5cf729d9e68ae0366a1ddbd57ab5b31d9b175363a6c30936d4c09f05638ee
 Description: An awesome MobileSubstrate tweak!
 Name: WeatherX-Assistant
 Author: Requis
+
+Package: com.skyglow.itunesstorex
+Architecture: iphoneos-arm
+Version: 3.2
+Section: Tweaks
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: debs/com.skyglow.itunesstorex_3.2.deb
+Size: 108400
+MD5sum: 119e8183a48268f6920cfc3b0a8df212
+SHA1: 6b411c683fba5f6b3278a9aae28d956465bc32ba
+SHA256: 946952cc2bcc33ddd512dc5bbcfc0755c3ccd975cdd7f0a2c4384d9a4589cdcc
+SHA512: b543d31dd2f7c03b71b0ec9222c5166f0904c00fa3ec2d390ceff0a2b8b1bdff783dc177a36cc11b2b776fbc7aa53ad2fbcfe28fc7ba20a3bcca04ace769aa6c
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Name: iTunesStoreX
+Author: Requis, Bag.xml
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+
+Package: com.skyglow.mapsx
+Architecture: iphoneos-arm
+Version: 4.0.0
+Section: Tweaks
+Maintainer: Requis
+Installed-Size: 436
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.skyglow.mapsx_4.0.0.deb
+Size: 153932
+MD5sum: 5c86d3340024ff7deeb08bb283ec68f4
+SHA1: 37b23a685558c395c8a18968d781bdfd3f1588a7
+SHA256: 696e948e972733c45595a707111ffe2da3aaea451489bd816e9806813de3dfd2
+SHA512: dce7c60ce3e76cfb43148d432985f039a28fb19163ee6a9d3c15cb33b2f05ad41bebcfa2a8d22ce3c50f3b120b681b8e0cc7915ae8f8cd4b8485986cf40407f7
+Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...).
+Name: MapsX
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.mapsx/MapsX-Icon.png
 
 Package: com.skyglow.tlsfix
 Architecture: iphoneos-arm
@@ -1213,6 +1500,43 @@ Author: Ryan Petrich <rpetrich@gmail.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: rpetrich
 
+Package: dev.preloading.ebayx2
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Preloading
+Installed-Size: 5788
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ixmoe.1pwn.ebayx
+Filename: debs/dev.preloading.ebayx2_1.0.0.deb
+Size: 2117008
+MD5sum: 4b0fb6c5c7b99de018f48710df2ca904
+SHA1: 8689e668beb9042daa675bf2ead02d81a85cab12
+SHA256: 5f03147a44e21d104da06c3b5e481b5a00738b6eee6c42b94dfb8619d7193ac0
+SHA512: 435fb52d2b6aa9606fd5afa4f8d8cd678d7587c98c2585e8b1c219c57b83facd1ecb2aa1aca65fc1b4c8a7a9955f55a434b1481e34d09defa945b13939ce4725
+Homepage: https://cydia.preloading.dev/depictions/ebayx2/1.0/
+Description: A tweak that fixes the eBay app.
+Name: EBayX²
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/ebayx2/1.0/
+
+Package: dev.preloading.retranslate
+Architecture: iphoneos-arm
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Preloading
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.preloading.retranslate_1.1.0.deb
+Size: 18432
+MD5sum: 3351e159ad5f0b491818bfbf457e5d13
+SHA1: 46d114bc457bd47fa7d6097538653d1d624beb65
+SHA256: f9dd235a3461dc6a55aaa5bf5aa669d200568cb5e38cecdaa5199e607be7ae83
+SHA512: 145b651988de32cecb9e0260e53c7c5650eb519b5cffbee854d1a7e5a14e6054f285fd496adf5d964a93635c4846605f0d8b2b5598f4fc40735a421b153b3a65
+Description: Fixes Google Translate.
+Name: Retranslate
+Author: Preloading, SpaceSaver2000-1
+
 Package: dev.preloading.tubereplacer
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -1272,6 +1596,92 @@ SHA512: 725c2436cd31ee2d18ea358b3f09eff5ec1f5a48d8b717e1c192b72957b03e035e0d72ce
 Description: OpenSSL Libraries for version 1.1.1
 Name: OpenSSL 1.1.1 Libraries
 
+Package: net.nekokawa.antennacustomizer
+Architecture: iphoneos-arm
+Version: 0.5.0-10+debug
+Section: Tweaks
+Maintainer: nekokawa
+Installed-Size: 416
+Depends: mobilesubstrate (>= 0.9.5000), net.nekokawa.foundation, firmware (>= 3.0), preferenceloader
+Conflicts: com.mirrordev.fakecarrier, com.phoenix.bars, com.nspwn.fakeoperator
+Filename: debs/net.nekokawa.antennacustomizer_0.5.0-10+debug.deb
+Size: 24044
+MD5sum: 40e27badd22affe42a25c1410e962090
+SHA1: ae8619f6c6a7c353a6906627d4b359bd0eddc8f4
+SHA256: 97f1b1fde6793d96399215cec6c5377af1428a59cc382ae1e17a143f5b1427d3
+SHA512: cd8747bf84239f4c91d1010340112886651c4a68b67c112a3a6b85addf2a5250a8bc77e344637588718db6ec1a5101729c31a3ef070db6dddc7a8f9ceedfd0e3
+Description: Fully Customizable Antenna Bar Tweak for iPhone OS 3 ~ 10!
+Name: AntennaCustomizer
+Author: nekokawa
+
+Package: net.nekokawa.appstorefix
+Architecture: iphoneos-arm
+Version: 0.3.5-4+debug
+Section: Tweaks
+Maintainer: nekokawa
+Installed-Size: 264
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 6.1.6), preferenceloader
+Filename: debs/net.nekokawa.appstorefix_0.3.5-4+debug.deb
+Size: 22434
+MD5sum: 435aade5d4f33a26ae32ef1af8310090
+SHA1: 1e602811b5f60d8211ae0bc448958b672c89b7bd
+SHA256: d74c697d0f9bd6f7a1e0f5b4c147e83d340f2d07b2c5ce797ae875cbe6c8beaf
+SHA512: 87bd53236ba3e211e69acc485f4efe72d7dfdff3a81f490cb6dff020e7073ce2f9291c040e3801e4af4f5651593e9899b5a6850d11ccd6658c7d3845ac73e39c
+Description: Fix AppStore SSL connection(only iOS 6!)
+Name: StoreSSLFix
+Author: nekokawa
+
+Package: net.nekokawa.foundation
+Architecture: iphoneos-arm
+Version: 0.0.1-7+debug
+Section: System
+Maintainer: nekokawa
+Installed-Size: 188
+Filename: debs/net.nekokawa.foundation_0.0.1-7+debug.deb
+Size: 8266
+MD5sum: 77c7f64d50d91c4f22759ab1cb7cbd50
+SHA1: e9fdcf8a3fc62cd0cd7d12c0a1b50ad5cc4d2ec0
+SHA256: 8759162d2f0d26f140a3792c8d705427a3adaab51bcc8d27b8285a7d24177dbd
+SHA512: 985861114d16392b36233409f544049f2c037f81d7a7f0d05b7ab90abdbdf6796fd067e54a0927e930524b7790219aae21746fd2cabfcb52b78ebc68d306bc51
+Description: iOS Framework to Smooth for Tweak development
+Tag: role::developer
+Name: NekokawaFoundation
+Author: nekokawa
+
+Package: net.nekokawa.re5tore
+Architecture: iphoneos-arm
+Version: 0.0.10-8+debug
+Section: Tweaks
+Maintainer: nekokawa
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 6.1.6), preferenceloader
+Filename: debs/net.nekokawa.re5tore_0.0.10-8+debug.deb
+Size: 25210
+MD5sum: 40ab3f338750f2879af954911e67ee21
+SHA1: cdf972b84a1ee85d1e709c98ce6e4b1c87db5aec
+SHA256: 8b04e27d1560ce18cd38f3e7bd3f2de06bee3223648ef30797f292833177a750
+SHA512: 04a7ac1a5c75c2a7443060a2cb18c0187a0e6c7c7a0283273fcf79213e302f3e4874e228b3405fe1b5d7e11ce9a10752b7b38e5cf6008c2c905b713e62d8123f
+Description: Restores the hidden iOS 5 store on iOS 6!
+Name: Re5tore
+Author: nekokawa
+
+Package: net.nekokawa.storeloginfix
+Architecture: iphoneos-arm
+Version: 0.0.4-1+debug
+Section: Tweaks
+Maintainer: nekokawa
+Installed-Size: 124
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<= 5.1.1)
+Filename: debs/net.nekokawa.storeloginfix_0.0.4-1+debug.deb
+Size: 8762
+MD5sum: 61b5d30f7efe2ef5f217723ee3cfdcc9
+SHA1: ba32d0f4cb3e3cf9be15a5aec97be34f15ad50aa
+SHA256: f71f89f7e372ff20d06b15d0fac5ade1fcfd55d1eac6c228d559408cc9d830d3
+SHA512: 4981825f5eec28818ff5b63cd3ce029815ea0c46dccd7a5fb9aa7a9b56f1fe59fe1adec2008f92e39f92d9bfd46b98ac7631cf0a4bca44160e9b65c1d1cddb50
+Description: Fix login the AppStore for iOS 5 and older
+Name: StoreLoginFix
+Author: nekokawa
+
 Package: openssh
 Architecture: iphoneos-arm
 Version: 8.3-1
@@ -1290,6 +1700,29 @@ SHA512: 4ce673b14515f2606bcf626df559377e508ac54207b8fc772231f7e9bea5411ca05dac75
 Description: secure remote access between machines
 Name: OpenSSH
 Depiction: http://cydia.saurik.com/info/openssh/
+
+Package: org.coolstar.recordmyscreenapp
+Architecture: iphoneos-arm
+Version: 1.1-4
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 398
+Depends: firmware (>= 5.0), gsc.armv7, firmware (<< 7.0)
+Filename: debs/org.coolstar.recordmyscreenapp_1.1-4.deb
+Size: 281744
+MD5sum: 9127a7a26551f47615e506a69af3c959
+SHA1: 5b749785b1fe3f1cb8db2fd6ed24671a7f8e01be
+SHA256: a024cf0583cbf79fad718a6076f16d27f0a90be1c40ab3357218ac3e2c463e7b
+SHA512: d4d59dd1b677afc10d467adb778834d9460f5a4bed85e88e7422ba102d7701e8a43ac3d7ff827d14d6b03acf2da8f0ed3ebeaaea00f0b14bc0b53125bb00681f
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=recordmyscreenDp
+Description: free, open source screen recorder
+Tag: purpose::uikit
+Name: RecordMyScreen (App)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=recordmyscreenDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: RecordMyScreen Project <coolstarorganization@gmail.com>
+dev: coolstar
 
 Package: org.porkholt.livepapers
 Architecture: iphoneos-arm
@@ -1314,6 +1747,29 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=livepapers
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: porkholtlabs
 Icon: file:///Applications/LivePapers.app/Icon.png
+
+Package: org.thebigboss.blurriedncbackground
+Architecture: iphoneos-arm
+Version: 3.0-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 24
+Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader
+Filename: debs/org.thebigboss.blurriedncbackground_3.0-1.deb
+Size: 12962
+MD5sum: dab88b57382279191a793c994acb48c1
+SHA1: ea50310e650ae6b04af6da008af9a5d96d0b437d
+SHA256: 1fd98a17930bd85ddda970aad3e5cd225cf49ebf72e74a27223c5a9cb3bd073b
+SHA512: 0be323a08bcba29a3b6eadac1ae6d08ac17de2754179e816ef6e7ad38e91098ad2ec2964c4c8251e2f03cd0fa0f7d5fc7f282772782ac64869f5a0e3e0297fa4
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blurriedncbackgroundDp
+Description: blurred wallpaper behind NotificationCenter
+Tag: purpose::extension
+Author: Philippe <philippemail1@gmail.com>
+Name: BlurriedNCBackground
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blurriedncbackgroundDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: philippemail1
+Icon: file:///Library/PreferenceLoader/Preferences/bncb/bncb@2x.png
 
 Package: org.thebigboss.tvlockerpro
 Architecture: iphoneos-arm
@@ -1434,6 +1890,27 @@ Author: Surenix
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 Depiction: http://cydia.gsm.vn/t2890/
 
+Package: vn.gsm.forecast
+Architecture: iphoneos-arm
+Version: 2.3.0-1
+Section: Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 60
+Depends: mobilesubstrate, com.arichardson.WeePreferenceLoader, firmware (<< 7.0)
+Conflicts: com.ashman.clockhide, gsc.ipad
+Filename: debs/vn.gsm.forecast_2.3.0-1.deb
+Size: 25706
+MD5sum: 0d8a0288116cb245b6d032f36659b0f4
+SHA1: b38335cb060b140074c2447576bac222a46bac04
+SHA256: 8b644b78acb416797c848579774511ef30acfc907255bb5a512944b1e52efb54
+SHA512: 0906d3d2f054a112bb35a0e4091e37226f5125f99b11aba057726c6fe997965fe8aad7628962cd6cf65ce2fe59f45a704787d3148faa8307f77b6d0a25c35c0c
+Homepage: http://cydia.vn/
+Description: This is a compatibility version of Forecast for iOS6.
+Name: Forecast for iOS6
+Author: Stimpy5050 <dashman@gmail.com>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t2680/
+
 Package: vn.gsm.ifile
 Architecture: iphoneos-arm
 Version: 2.2.0-1
@@ -1514,6 +1991,28 @@ Author: HASHBANG Productions
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 Depiction: http://cydia.vn/depic/t4368/
 Icon: file:///Library/PreferenceBundles/LiveWireProPrefs.bundle/LiveWirePro@2x.png
+
+Package: vn.gsm.localiapstore
+Architecture: iphoneos-arm
+Version: 1.4-1
+Priority: optional
+Section: Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 53
+Depends: gsmicon, firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Conflicts: anondev.LocalIAPStore
+Filename: debs/vn.gsm.localiapstore_1.4-1.deb
+Size: 70892
+MD5sum: c0136229d28d138d450e9a3f344d05c2
+SHA1: 57ae91d21bbc64bf3b8b7f4dce670be74f25a3e3
+SHA256: 6e4af3c19cfb069a44da8001dd39f26ff6d4b4d107dca09921b458b1f10727ed
+SHA512: a142c6b866ff275f30e8381c2976c16fd14edf1eda83ac18f31e5d71c19bf658a2d983cd89b2e0472f9482eb33535ecc90f36bed64be0791d8a43bcd827b5b7a
+Homepage: http://cydia.vn/
+Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Name: LocalIAPStore
+Author: anon dev <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t3534/
 
 Package: vn.gsm.pushfix
 Architecture: iphoneos-arm
