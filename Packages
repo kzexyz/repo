@@ -1591,6 +1591,22 @@ SHA512: 725c2436cd31ee2d18ea358b3f09eff5ec1f5a48d8b717e1c192b72957b03e035e0d72ce
 Description: OpenSSL Libraries for version 1.1.1
 Name: OpenSSL 1.1.1 Libraries
 
+Package: neofetch
+Architecture: iphoneos-arm
+Version: 7.1.0.2
+Section: Terminal Support
+Maintainer: KawaiiZenbo
+Depends: coreutils, gawk, grep, bash, coreutils-bin, system-cmds, darwintools
+Filename: debs/neofetch_7.1.0.2.deb
+Size: 86880
+MD5sum: 5321d5d7158571ce3ca54e8900d89fb6
+SHA1: 2d0f8ed382266bf162fc2830cc14cbf86a2efa86
+SHA256: 77a3518c53177917c094c601221967512c7a2edd3a304b47aa8c23ad22c175af
+SHA512: 08bc0461871593faf61671a0006d1f57a5d231c189236eb93ced6e9ba7773cad8feaaf88cf05db3941628a278f9442f5ddf5f4250ec076f27348bc9b067b6c08
+Description: A command-line system information tool written in bash 3.2+ from https://github.com/dylanaraps/neofetch, packaged for iOS
+Name: neofetch
+Author: dylanaraps
+
 Package: net.nekokawa.antennacustomizer
 Architecture: iphoneos-arm
 Version: 0.5.0-10+debug
