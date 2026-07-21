@@ -25,6 +25,10 @@ jobs:
         sed -i 's/Section: !GSMVN-Tools/Section: Tools/g' Packages
         sed -i 's/Section: !GSMVN-Themes/Section: Themes/g' Packages
         sed -i 's/Section: !CydiaVn-Apps/Section: Apps/g' Packages
+	sed -i 's/Section: Hệ thống/Section: System/g' Packages
+	sed -i 's/Section: Tweaks (HYI)/Section: Tweaks/g' Packages
+	sed -i 's/Section: Themes (HYI)/Section: Themes/g' Packages
+	sed -i 's/Section: Wallpaper (HYI)/Section: Wallpaper/g' Packages
         gzip -fk Packages
         bzip2 -fk Packages
         echo "Origin: kazexyz's repo" > Release
