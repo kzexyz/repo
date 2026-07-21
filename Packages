@@ -244,17 +244,39 @@ Section: Tweaks
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/com.arichardson.weepreferenceloader_1.1.deb
-Size: 34568
-MD5sum: cef1b082bc028c22ae0eda383df0e491
-SHA1: f7e773071127ebc8910ca86b1f69b01301aa9f6e
-SHA256: 7ed9065b10acfd0d58c7ac01b69cd921639dc881f4b7087970d9f44ee455117a
-SHA512: 29739cdf5d02cda5eac577c70726babc16aa6e48e38d03505779408ad5cf88ad83d022e553a95072fa0d62b946ef9fcd317bdc058ca49e10dbd8d3eee3e09e8d
+Size: 34562
+MD5sum: 1deaeb81dd1dcd9fe7f9521fa8be6524
+SHA1: 10b0ecae5a95031c1f7485e6e735ba64779fcf79
+SHA256: 4971aec5462de7fba3593fb18bf6091d9c40ef59e48d57725eedea95bb71cb7d
+SHA512: bced9377322c97367807c89d3524ecdcb00bd73c3717b47da62ee1825b8843b2b69e3de61b46972d23dcf5adad988fe3cee47af91fc8a924683d66abace06efb
 Homepage: http://modmyi.com/info/weepreferenceloader.php
 Description: A framework to easily add preferences to the Notifications settings.
 Name: WeePreferenceLoader
 Author: Andrew Richardson <andrewr114@gmail.com>
 Depiction: http://modmyi.com/info/weepreferenceloader.d.php
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.autopear.installipa
+Architecture: iphoneos-arm
+Version: 3.4.1-1
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 238
+Depends: firmware (>= 4.0)
+Filename: debs/com.autopear.installipa_3.4.1-1.deb
+Size: 151630
+MD5sum: 4d4941448d74d531e0b25fc53efbc9ed
+SHA1: 86fa2801be6a76cdb5d2f91980124914cb789d52
+SHA256: 98724f95b177a47ee1143d13990d5c2bcafde53056cc4f46b77126d2bea1db41
+SHA512: cd55817462315c6155f663591b46eb65508bfc4148c697ae1c9d4f39a49fc6a192e582eb06edd45dcb95e2faf960da7cda0a5e3923f2005f588f36b8211e5874
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
+Description: Install IPA from the command line
+Tag: purpose::console, role::enduser, compatible::ios7, compatible::ios8
+Name: IPA Installer Console
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
+Author: Merlin <lonelystars@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: lonelystars
 
 Package: com.bensge.safariswipez
 Architecture: iphoneos-arm
@@ -439,6 +461,199 @@ Name: IconBundles
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iconbundlesDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: nickf
+
+Package: com.hackyouriphone.funnycartoonironmanlivewallpaper
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Wallpaper (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Filename: debs/com.hackyouriphone.funnycartoonironmanlivewallpaper_1.0.deb
+Size: 76528
+MD5sum: 7efebddbc537aceff7d462a6ca61025f
+SHA1: 63c8e42d1f25c69b4c95dc58820e098764dbb12c
+SHA256: 605b0ca9962483593dd07d9ec53e04f20db1a4568a2cbc0f703f056bce02b4d5
+SHA512: 782bea6d8ebcfb36318f382946884237d96cf20be5bf7a21e4b8ffe408290847b51da6effb23357a77bae77b9cb85e9982ba55d78654dfc9507a8a10095bfa6e
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=funnycartoonironmanlivewallpaper
+Description: A Stunning live Wallpaper for your iPhone.
+Name: Funny Cartoon Iron Man Live Wallpaper
+Author: Jack Bianchi <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=funnycartoonironmanlivewallpaper
+
+Package: com.hackyouriphone.ishadygroovylock
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Themes (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.groovycarrot.groovylock, com.hackyouriphone.ishadyhd
+Filename: debs/com.hackyouriphone.ishadygroovylock_1.0.deb
+Size: 2269064
+MD5sum: 4a588cd2b474b91c316b1b47cc7aade9
+SHA1: 4705b6115646b9b689679e9464a08b5e21711206
+SHA256: b5e74ee40b42d5928d398de219f27392a0a624c34dfb7ce44154a03b99fee02c
+SHA512: 8d3fd77e20e9840f8c45e69dcc58b0e5c9de089d6009a37ac05e1009df2296f2884932a86fce246c56c456f46403966527f8e2af20b94da0bd80f4cb07b79b89
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadygroovylock
+Description: Lockscreen for iShadyHD iOS7
+Name: iShady GroovyLock
+Author: DemoneLatino <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadygroovylock
+
+Package: com.hackyouriphone.ishadyhd
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Themes (HYI)
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: winterboard
+Filename: debs/com.hackyouriphone.ishadyhd_1.0.deb
+Size: 11508708
+MD5sum: 3dbde2b4b471719d98ad21db5d0cbcc9
+SHA1: 9aee08268bc823729f4b99d03a147584f634836b
+SHA256: 61bba2b0261fab651ee0b1f77dd3861c4fb48f211efe639684658e4177dffa9e
+SHA512: edca5cfecf9909bf814730ae695fd3d61290f5109effff9f4c2ebf0e81b2428de90739b6d2ff63ceac03ab1ba41449a4e47964c71919ee6635387c6696d4de99
+Description: iShadyHD for iPhone 4/4S/5!
+Name: iShadyHD
+Author: DemoneLatino <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyhd
+
+Package: com.hackyouriphone.ishadyhdios7
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Themes (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: winterboard
+Filename: debs/com.hackyouriphone.ishadyhdios7_1.0.deb
+Size: 11270512
+MD5sum: 69f9516e1419071dce9036e1afee94d7
+SHA1: f076f68bf8c6a7fd7fa5b28e822f3328e243bf38
+SHA256: d58856f0de5550395213f32031f041f1b2d2cf53b292753dd5529d8457e0bdae
+SHA512: d953255c7f7c9f530476cbaeda809479a320cbc838da1c766f822644e023116d167f2d2af766b18316961aa2a38fbcaedcc390667a7c24c08e5b439677482ba7
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyhdios7
+Description: iShadyHD is Back and now support the iOS 7!
+Name: iShadyHD iOS7
+Author: DemoneLatino <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyhdios7
+
+Package: com.hackyouriphone.ishadyiconomatic
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Themes (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.idd.iconomatic, com.hackyouriphone.ishadyhd
+Filename: debs/com.hackyouriphone.ishadyiconomatic_1.0.deb
+Size: 11616
+MD5sum: 7afcd2a813bb79d6947cec5064c78443
+SHA1: e5925c994b29fb022175a3154598f3765c6dd49c
+SHA256: 8accf6d068ee0936dfbfd756c892c80388412ab371f208256636e143e6f6b6e4
+SHA512: 5698b17cad2ca36e213348a83c943450fc0710ecd28b762149e5cc421062b1765a45cdd2faf91b91078a508b0a2f0c83c39c56623edbe1b3293da6016f1527da
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyiconomatic
+Description: icon shadows for iShadyHD iOS7
+Name: iShady IconOmatic
+Author: DemoneLatino <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyiconomatic
+
+Package: com.hackyouriphone.ishadyios7iwidgets
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Themes (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.eldwin.iwidgets, com.hackyouriphone.ishadyhdios7
+Filename: debs/com.hackyouriphone.ishadyios7iwidgets_1.0.deb
+Size: 17083920
+MD5sum: 732504a5950eeaf307232ad998e248fa
+SHA1: 03858dd3c79e232ab34b51ce0be4abad6ebc1084
+SHA256: ece91226669aa5a6601651271b24e5beb1f98328c5c9e9142ce2062f1171fb47
+SHA512: 632d2b1d96d2b93b8d62259f53cf1017fb4f86adbee9458b6ae1bce9d4d819f7d8ec894ecead6381f5238c75b5691f5a26db42080e8ae08f5e2cdf4cfc768dbe
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyios7iwidgets
+Description: iWidgets for iShadyHD iOS7 users only!
+Name: iShady iOS7 iWidgets
+Author: DemoneLatino <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyios7iwidgets
+
+Package: com.hackyouriphone.ishadyip4widgets
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Themes (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Filename: debs/com.hackyouriphone.ishadyip4widgets_1.1.deb
+Size: 5142584
+MD5sum: 6ca4ff8418486c11e23db92f3a4b3d33
+SHA1: d8b3fddc49a900c4a1c1eb4947fbec30a2048127
+SHA256: e2e03965d2306d839a9e5fae75e2e0ec8da5b951b16d194f13a7a033e33fd764
+SHA512: 4b1fa251e16a5b3eb057e9c0c274dc393455b878ce37dd07b66b7ef39511fc880b18a5726d12419e43c5ea464d0a477bbe286656f2010a82801b29b7c968d617
+Description: Weather widget for iShadyHD iPhone 4,4S
+Name: iShady iP4 Widgets
+Author: DemoneLatino <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyip4widgets
+
+Package: com.hackyouriphone.ishadyip5widgets
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Themes (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Filename: debs/com.hackyouriphone.ishadyip5widgets_1.2.deb
+Size: 4981644
+MD5sum: 7665d89cd4973df18ef0029550c151c4
+SHA1: 3f71d9576bd835ecb177828792825e5010aa5459
+SHA256: 453bd342a4e7cb847bb6dd6117de2ece8f2b49be99cea0fefaee689cfcd01388
+SHA512: 9b230e993b677d9d2b6ee33f212115b4f7ced9d5003154028ca60c890ae8493ac301cd0ea15266805a335caea57ebdc3798bca11bf776cf7878435e970f8357d
+Description: Weather widget for iShadyHD
+Name: iShady iP5 Widgets
+Author: DemoneLatino <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishadyip5widgets
+
+Package: com.hackyouriphone.nuxios7vwallpaper
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Themes (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: winterboard, firmware (>= 7.0)
+Filename: debs/com.hackyouriphone.nuxios7vwallpaper_1.0.deb
+Size: 7625868
+MD5sum: 6c541a467c5fe972014cbb57aaa44121
+SHA1: f5165121e5b34155617dacd8de46791291e7567f
+SHA256: 3db97e1c07abb1b5dc03799b68111f9ae6d734051a86974b0cc3f2037a6a68cb
+SHA512: 3c3e19130f40478fe9f1a5ba0f49d51b8fc86fe22586ec7e5096bde06ea2e2e332b8ed5e8dffa99cba326b7f0132bc530a9836b7782c9ff18f866e42033f801c
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nuxios7vwallpaper
+Description: nux iOs7 vWallpaper
+Name: nux iOs7 vWallpaper
+Author: ChrisGraphiX <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nuxios7vwallpaper
+
+Package: com.hackyouriphone.sleepfx
+Architecture: iphoneos-arm
+Version: 2.4-1
+Section: Tweaks (HYI)
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 5.1)
+Filename: debs/com.hackyouriphone.sleepfx_2.4-1.deb
+Size: 841688
+MD5sum: 8b35216f6c479106b03a123c9ea02b93
+SHA1: 89f085a15082f506fb5b3a63544848b3a81acc41
+SHA256: 3b645e9ceb016cfb6db56db3c1471e9bb9b8320e5640fd0a726b9cb4b84fa078
+SHA512: 78883923b1d160898d34bb271bb2261bf9c49620830ae24381867aac04d7eaf49fa735e84b33a964c5b22ed4ae16b612c01aa2bc48e29aae009859d54ade4e3b
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sleepfx
+Description: Enjoy stunning FX when entering sleep
+Name: SleepFX
+Author: Malcolm Hall <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sleepfx
+
+Package: com.hackyouriphone.vwallpaper2os8
+Architecture: iphoneos-arm
+Version: 0.3.0-1
+Section: Applications (HYI)
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
+Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os7
+Filename: debs/com.hackyouriphone.vwallpaper2os8_0.3.0-1.deb
+Size: 22832984
+MD5sum: 3e1f719e681a299cc10ddbcafe111dfa
+SHA1: 343d858660dd04950f73346eb77692951ddd1434
+SHA256: bd139b8a04a5562dc980c29ea274c2c72260dcb1862f9e5c0692212c727f97c9
+SHA512: 9b0229f6b42cd7936d834b757e985c396744f7f7925c4b86994c24cabf04c25ff97144628638d652820d4549910a1210a82a4a427e9316c3e241cfd99924822f
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=vwallpaper2os8
+Description: Add videos, video ringtones, cool effects (particles, 3D objects), HTML Widgets (...) on your Springboard and / or Away view. Bring your iPhone to life ! (Beta stage)
+Name: vWallpaper 2 for iOS 8
+Author: skrew <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=vwallpaper2os8
 
 Package: com.ia.iconbounce
 Architecture: iphoneos-arm
@@ -728,6 +943,30 @@ SHA512: f9b244f65aae55cbaca4bc7b55bbeb02d53354e4727a82373b14e02fb94565ecd96dc80d
 Description: A script that fixes the iFile and MTerminal icons on iOS 6 and below.
 Author: Uniq <joey.t.reinhart@gmail.com>
 Name: iFile/MTerminal icon fix
+
+Package: com.mathieubolard.killbackground
+Architecture: iphoneos-arm
+Version: 1.3.1-7
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 133
+Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, applist
+Filename: debs/com.mathieubolard.killbackground_1.3.1-7.deb
+Size: 71280
+MD5sum: 3d33c09acb224ea7078601c180e80de1
+SHA1: 048554dfee5778b9aca58770d695d5b1d26be977
+SHA256: 8742b22b13da8fa2a528b54f6e6fea275f874f1e7a473dc795c547a3a699f397
+SHA512: d1f25cf239c5d8cac34824802160b507c0e4eda89f1362a9c0af2987f694a468296e4a8ef63bd0af02d6e572c2cd377128d1fc20806ed2106da41ff66fe1af30
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=killbackgroundData
+Description: kill all background apps from switcher
+Tag: purpose::extension
+Name: KillBackground
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=killbackgroundData
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
+dev: mattlawer
+Icon: file:///Library/PreferenceBundles/KillBackgroundPreferences.bundle/Icon@2x.png
 
 Package: com.mathieubolard.powercenter
 Architecture: iphoneos-arm
@@ -1434,6 +1673,38 @@ Name: redeb
 Author: T.Herak <50dc856b@opayq.com>
 Depiction: https://wiety.github.io/cydia/depictions/?p=com.vsz.redeb
 
+Package: com.weather.tweak
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Hệ thống
+Maintainer: Tomkids
+Depends: firmware (>= 5.0), mobilesubstrate, com.arichardson.weepreferenceloader, mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader
+Filename: debs/com.weather.tweak_1.2.deb
+Size: 211140
+MD5sum: 39a36f081313404f7ae62b00e4badca8
+SHA1: 6b8c3d94a05c93bcada9478eef170dd0037652eb
+SHA256: 2b0bb56525d4fa24839e5a84696b033bf821f0fc20191ba7cf0888273785d27d
+SHA512: d2a559f4ec420afad106eefbee556481aa7c7c68653e3cd69063add115bcb885be014cf78c07dd23c85e1edb19e2c0debc2740b4ff6bbab995bedca65dd6d8dd
+Description: Cai dat hien thi thoi tiet tren man hinh khoa va Notification cho IOS 6
+Name: Fix thời tiết màn hình khóa IOS 6
+Author: Tomkids
+
+Package: com.weather.tweak
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Hệ thống
+Maintainer: Tomkids
+Depends: mobilesubstrate, com.arichardson.weepreferenceloader, firmware (>= 5.0), mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader
+Filename: debs/com.weather.tweak_1.3.deb
+Size: 177784
+MD5sum: 42e623df487545a52b3b5d57eda56412
+SHA1: 0658e394f93c7a7cf873a28870d5d55a2afe5b33
+SHA256: 9c934768c4fb39b2b0fea5124eab025fd916bee15a6662c5e8abbbc9348cad5d
+SHA512: aaf0fbc5da531cd4756f679d3727836cbd7c87f8d760bf7586d274e09a1f55070b070245919e04cdc0703e168ff5ac07d3490c8e6e200aa3a13d92383c63dc32
+Description: Cai dat hien thi thoi tiet tren man hinh khoa va Notification cho IOS 6. Lu y can cai weepreferenceloader truoc
+Name: Fix thời tiết màn hình khóa IOS 6_V3
+Author: Tomkids
+
 Package: com.yllier.foldercloser
 Architecture: iphoneos-arm
 Version: 1.2
@@ -1572,6 +1843,28 @@ Name: Cydia.vn Icon
 Author: Cydia.vn <repo@cydia.vn>
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 Depiction: http://cydia.gsm.vn/t96/
+
+Package: libhide
+Architecture: iphoneos-arm
+Version: 2.4.1-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/libhide_2.4.1-1.deb
+Size: 31392
+MD5sum: d93247a9e652a1674d7faae387bfc9df
+SHA1: ff568bdf5dad9eeedc3f9ff4412237158f98e136
+SHA256: 6f0aaac83dd0b1261fa91e1cc6b742004da3a531abf725d065b69d69d69df2b5
+SHA512: a56d84428020c76b4cdd9dbfd52580d6595ce31da37254ae16f9095766aa9ba3c105d651a5be43cc3cb47b20c383125e92dab5de0359bf1903435b71aa5b5a3c
+Description: Library to hide icons.
+Tag: role::developer, purpose::library
+Name: libhide
+http: //moreinfo.thebigboss.org/moreinfo/depiction.php?file=libhideDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libhideDp
+Author: BigBoss <bigboss@thebigboss.org>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: bigboss
 
 Package: libssl1.1.1
 Architecture: iphoneos-arm
@@ -1859,6 +2152,46 @@ Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Depiction: http://cydia.invoxiplaygames.uk/dp/simalertsuppression.php
 SileoDepiction: https://cydia.invoxiplaygames.uk/dp/simalertsuppression.json
 
+Package: us.hackphone.barrel
+Architecture: iphoneos-arm
+Version: 1.6.1-1
+Section: Tweaks
+Maintainer: Aqua Sta <trong@hackphone.us>
+Depends: firmware(>= 3.0), mobilesubstrate, preferenceloader, libhide
+Conflicts: net.limneos.sbrotator (<= 2.1.5), com.aaronash.barrel, vn.gsm.barrel, com.heaveniphone.barrel, net.vnmagic.barrel
+Filename: debs/us.hackphone.barrel_1.6.1-1.deb
+Size: 401728
+MD5sum: ff0ff9dc1f3556c777e28f62959d233c
+SHA1: e45a81042966a7b156cd316b29eddfbb618124c3
+SHA256: 0a8a01e253d93bcf59805725c0b14e6b8c6a94a287c9740e3a0e6651bfa1eda7
+SHA512: 7936bebdd7140b439bdcb75227248b8c1ca572ca51a3eebec51c3e748ae37dcfec506be1df0e2da7ca9d5c75f636ba4b3464ffd3e661c3231a6dbc8b8fadbec4
+Description: Hiệu ứng 3D cho các trang biểu tượng màn hình chủ
+Author: Aaron Ash (Charybdis) <support@multifl0w.com>
+Name: Barrel Việt hóa
+Sponsor: Hackphone.us <http://hackphone.us/vi/news/Cydia/Viet-hoa-Barrel-v1-5-9-2-Thay-doi-hieu-ung-chuyen-trang-cuc-dep-cho-SpringBoard-827/>
+Icon: file:///Library/PreferenceBundles/threedeeprefs.bundle/threedeeprefs@2x.png
+
+Package: us.hackphone.ifile
+Architecture: iphoneos-arm
+Version: 1.7.2-2
+Section: System
+Maintainer: Aqua Sta <trong@hackphone.us>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Conflicts: vn.gsm.ifile, com.heaveniphone.ifile, eu.heinelt.ifile
+Filename: debs/us.hackphone.ifile_1.7.2-2.deb
+Size: 4244590
+MD5sum: b15efb465a3a56629e2f2769a045221b
+SHA1: 0e68be5d53ce52850e73391b45a0588af5c3827c
+SHA256: da0349beed5f05b74b6498af890949ff35333236a19af4022ac3486b0c619f18
+SHA512: f552810ab849991a393cf68edc8dde99284fe30e6b8ceb85376a92025aa19f6a583688c23fc5615e4d39c9a18ba79276a8032be9fd3809d2927025397478a1df
+Homepage: http://hackphone.us
+Description: Chương trình Quản lý tập tin và duyệt các định dạng tài liệu. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Name: iFile Việt hóa
+Depiction: http://hackphone.us/depictions/ifile
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Icon: file:///Applications/iFile.app/Icon.png
+Sponsor: Hackphone.us <http://hackphone.us/vi/news/Cydia/iFile-161-1-Ung-dung-quan-ly-tap-tin-cho-iOS-270/>
+
 Package: vn.gsm.auxo.org
 Architecture: iphoneos-arm
 Version: 1.4-2
@@ -2063,6 +2396,27 @@ Name: Safari Download Manager
 Author: Dustin Howett <dustin@howett.net>
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 Depiction: http://cydia.gsm.vn/t80/
+
+Package: vn.gsm.speedintensifier
+Architecture: iphoneos-arm
+Version: 5.0.3
+Section: Tools
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Depends: gsmicon, mobilesubstrate, preferenceloader
+Conflicts: jp.novi.fakeclockup, com.hackyouriphone.fakeclockup, com.hackyouriphone.fakeclockupita, com.xsellize.fakeclockup, vn.gsm.fakeclockup
+Filename: debs/vn.gsm.speedintensifier_5.0.3.deb
+Size: 8598
+MD5sum: f59bb3febe49689bba796d44f9da25ac
+SHA1: c0c8b044ba894dc496a81e4838079f462b61f8f9
+SHA256: 035eac1464b959fcbac50bb2ad20ba46fab8a49baae15e5befbbd9561c65c829
+SHA512: d50b126ac8e31cf2a513ff9051928a606df676bc58c761c2e8ade2e7e3c522b445050a3c81ae9c64be08d148a12fcab8c3d48b90b69ea80793e75b3370255102
+Homepage: http://cydia.vn/
+Description: This tweak will speed up the animation transitions to make your device Look faster.
+Name: Speed Intensifier 5
+Author: Philip Wong <support@gsm.vn>
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+Depiction: http://cydia.gsm.vn/t375/
+Icon: file://Library/PreferenceLoader/Preferences/SpeedIntensifier@2x.png
 
 Package: vn.gsm.zephyr
 Architecture: iphoneos-arm
