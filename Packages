@@ -636,25 +636,6 @@ Name: SleepFX
 Author: Malcolm Hall <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sleepfx
 
-Package: com.hackyouriphone.vwallpaper2os8
-Architecture: iphoneos-arm
-Version: 0.3.0-1
-Section: Applications (HYI)
-Maintainer: iDevid <repo@hackyouriphone.org>
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os7
-Filename: debs/com.hackyouriphone.vwallpaper2os8_0.3.0-1.deb
-Size: 22832984
-MD5sum: 3e1f719e681a299cc10ddbcafe111dfa
-SHA1: 343d858660dd04950f73346eb77692951ddd1434
-SHA256: bd139b8a04a5562dc980c29ea274c2c72260dcb1862f9e5c0692212c727f97c9
-SHA512: 9b0229f6b42cd7936d834b757e985c396744f7f7925c4b86994c24cabf04c25ff97144628638d652820d4549910a1210a82a4a427e9316c3e241cfd99924822f
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=vwallpaper2os8
-Description: Add videos, video ringtones, cool effects (particles, 3D objects), HTML Widgets (...) on your Springboard and / or Away view. Bring your iPhone to life ! (Beta stage)
-Name: vWallpaper 2 for iOS 8
-Author: skrew <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=vwallpaper2os8
-
 Package: com.ia.iconbounce
 Architecture: iphoneos-arm
 Version: 3.0.0-1
