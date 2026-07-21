@@ -465,7 +465,7 @@ dev: nickf
 Package: com.hackyouriphone.funnycartoonironmanlivewallpaper
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Wallpaper (HYI)
+Section: Wallpaper
 Maintainer: iDevid <repo@hackyouriphone.org>
 Filename: debs/com.hackyouriphone.funnycartoonironmanlivewallpaper_1.0.deb
 Size: 76528
@@ -482,7 +482,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=funny
 Package: com.hackyouriphone.ishadygroovylock
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Themes (HYI)
+Section: Themes
 Maintainer: iDevid <repo@hackyouriphone.org>
 Depends: com.groovycarrot.groovylock, com.hackyouriphone.ishadyhd
 Filename: debs/com.hackyouriphone.ishadygroovylock_1.0.deb
@@ -500,7 +500,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishad
 Package: com.hackyouriphone.ishadyhd
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Themes (HYI)
+Section: Themes
 Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: winterboard
 Filename: debs/com.hackyouriphone.ishadyhd_1.0.deb
@@ -517,7 +517,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishad
 Package: com.hackyouriphone.ishadyhdios7
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Themes (HYI)
+Section: Themes
 Maintainer: iDevid <repo@hackyouriphone.org>
 Depends: winterboard
 Filename: debs/com.hackyouriphone.ishadyhdios7_1.0.deb
@@ -535,7 +535,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishad
 Package: com.hackyouriphone.ishadyiconomatic
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Themes (HYI)
+Section: Themes
 Maintainer: iDevid <repo@hackyouriphone.org>
 Depends: com.idd.iconomatic, com.hackyouriphone.ishadyhd
 Filename: debs/com.hackyouriphone.ishadyiconomatic_1.0.deb
@@ -553,7 +553,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishad
 Package: com.hackyouriphone.ishadyios7iwidgets
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Themes (HYI)
+Section: Themes
 Maintainer: iDevid <repo@hackyouriphone.org>
 Depends: com.eldwin.iwidgets, com.hackyouriphone.ishadyhdios7
 Filename: debs/com.hackyouriphone.ishadyios7iwidgets_1.0.deb
@@ -571,7 +571,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishad
 Package: com.hackyouriphone.ishadyip4widgets
 Architecture: iphoneos-arm
 Version: 1.1
-Section: Themes (HYI)
+Section: Themes
 Maintainer: iDevid <repo@hackyouriphone.org>
 Filename: debs/com.hackyouriphone.ishadyip4widgets_1.1.deb
 Size: 5142584
@@ -587,7 +587,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishad
 Package: com.hackyouriphone.ishadyip5widgets
 Architecture: iphoneos-arm
 Version: 1.2
-Section: Themes (HYI)
+Section: Themes
 Maintainer: iDevid <repo@hackyouriphone.org>
 Filename: debs/com.hackyouriphone.ishadyip5widgets_1.2.deb
 Size: 4981644
@@ -603,7 +603,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ishad
 Package: com.hackyouriphone.nuxios7vwallpaper
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Themes (HYI)
+Section: Themes
 Maintainer: iDevid <repo@hackyouriphone.org>
 Depends: winterboard, firmware (>= 7.0)
 Filename: debs/com.hackyouriphone.nuxios7vwallpaper_1.0.deb
@@ -621,7 +621,7 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nuxio
 Package: com.hackyouriphone.sleepfx
 Architecture: iphoneos-arm
 Version: 2.4-1
-Section: Tweaks (HYI)
+Section: Tweaks
 Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 5.1)
 Filename: debs/com.hackyouriphone.sleepfx_2.4-1.deb
